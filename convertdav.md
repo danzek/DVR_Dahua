@@ -14,3 +14,7 @@ To convert the DAV files into MP4, I did this:
 3. To do this on a whole directory and append *.mp4 to existing file names, I did this:
 
 `find . -type f -name '*.dav' -exec ffmpeg -i {} -c:v copy -c:a copy {}.mp4 \;`
+
+## References
+
+https://blog.roboflow.com/how-to-convert-dav-footage-to-mp4-video/
