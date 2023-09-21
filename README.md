@@ -7,9 +7,12 @@ Script for recovering video from DHFS4.1
 - Dahua DHI-HCVR4104HS-S2
 - Dahua DHI-HCVR5108C-S3
 - EZ-IP NVR1A04-4P
+- Q-See QC9116
 
 
 #### Usage:
+
+As written, it only works on Windows.
 
 #### Step 1:
 - Change variables at the end of the script;
