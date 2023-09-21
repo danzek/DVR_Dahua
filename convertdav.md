@@ -9,8 +9,8 @@ To convert the DAV files into MP4, I did this:
 1. Install `ffmpeg`
 2. Convert with this command:
 
-    ffmpeg -i video.dav -c:v copy -c:a copy output_video.mp4
+    `ffmpeg -i video.dav -c:v copy -c:a copy output_video.mp4`
 
 3. To do this on a whole directory and append *.mp4 to existing file names, I did this:
 
-    find . -type f -name '*.dav' -exec ffmpeg -i {} -c:v copy -c:a copy {}.mp4 \;
+    `find . -type f -name '*.dav' -exec ffmpeg -i {} -c:v copy -c:a copy {}.mp4 \;`
